@@ -17,7 +17,7 @@ img {
   height: 600px;
   border-radius: 10px;
   overflow: cover;
-  padding-right: 50px;
+  margin-right: 50px;
 }
 
 .hover-box {

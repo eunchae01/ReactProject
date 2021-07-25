@@ -2,21 +2,23 @@
   width: 750px;
   height: 500px;
   background-color: lightblue;
-  position: absolute;
-  margin-top: 300px;
+  /* position: absolute;
+  margin-top: 300px; */
   margin-left: 7%;
+  float: left;
 }
 
 .champInput {
-  margin-left: 15%;
+  padding-left: 15%;
 }
 
 /* 검색창 */
 .cpSearch {
-  margin-top: 300px;
-  margin-left: 60%;
-  position: absolute;
+  /* margin-top: 300px; */
+  padding-left: 60%;
+  /* position: absolute; */
   background-color: lightgray;
+  width: 800px;
 }
 .cpInput {
   width: 400px;
