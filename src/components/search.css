@@ -254,7 +254,7 @@
 /* 상세페이지 */
 .Otitle {
   display: flex;
-  background-color: lightgreen;
+  background-color: lightskyblue;
   float: left;
 }
 
@@ -397,7 +397,7 @@
 .Ograph3 {
   float: left;
   background-color: aliceblue;
-  width: 250px;
+  width: 150px;
   height: 60px;
 }
 
@@ -488,17 +488,20 @@
 .monster {
   width: 125px;
   /* height: 75px; */
-  background-color: lightseagreen;
+  background-color: lightblue;
+  text-align: center;
+  padding-top: 6px;
 }
 
 .monstermenu {
   padding-top: 15px;
   width: 125px;
-  background-color: lightskyblue;
+  background-color: lightblue;
+  text-align: center;
 }
 
 .dragonGraph {
   width: 550px;
   padding-top: 15px;
-  background-color: lightsalmon;
+  background-color: lightblue;
 }

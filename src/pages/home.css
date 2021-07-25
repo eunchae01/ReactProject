@@ -4,10 +4,12 @@
 
 .img-box {
   /* position: absolute; */
-  padding-top: 50px;
-  padding-left: 100px;
+  padding-top: 75px;
+  padding-left: 125px;
   background-color: lightgray;
   display: inline-flex;
+  width: 1565px;
+  height: 650px;
 }
 
 img {
@@ -15,7 +17,7 @@ img {
   height: 600px;
   border-radius: 10px;
   overflow: cover;
-  margin-right: 50px;
+  padding-right: 50px;
 }
 
 .hover-box {

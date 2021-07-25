@@ -28,7 +28,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://eunchae01.github.io/ReactProject/",
+
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -48,6 +48,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.0"
+    "gh-pages": "^3.2.3"
   }
 }
