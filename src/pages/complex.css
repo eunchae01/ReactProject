@@ -13,3 +13,11 @@
   background-color: lightblue;
   margin-left: 7%;
 }
+
+#line:focus {
+  background-color: #144e88;
+}
+
+#hanta:focus {
+  background-color: #144e88;
+}

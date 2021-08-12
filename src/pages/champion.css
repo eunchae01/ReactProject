@@ -2,8 +2,6 @@
   width: 750px;
   height: 500px;
   background-color: lightblue;
-  /* position: absolute;
-  margin-top: 300px; */
   margin-left: 7%;
   float: left;
 }
@@ -15,10 +13,10 @@
 /* 검색창 */
 .cpSearch {
   /* margin-top: 300px; */
-  padding-left: 60%;
+  padding-left: 1000px;
   /* position: absolute; */
   background-color: lightgray;
-  width: 800px;
+  /* width: 800px; */
 }
 .cpInput {
   width: 400px;

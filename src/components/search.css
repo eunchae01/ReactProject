@@ -60,9 +60,9 @@
   /* position: absolute; */
   margin-top: -200px;
   margin-left: 575px;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
   width: 925px;
-  height: 160px;
+  height: 150px;
   /* float: left; */
 }
 
@@ -94,11 +94,11 @@
 .list {
   /* position: absolute; */
   /* margin-top: -425px; */
-  margin-left: 575px;
+  padding-left: 575px;
   width: 925px;
   height: 200px;
-  background-color: aliceblue;
-  margin-bottom: 50px;
+  background-color: lightgrey;
+  padding-bottom: 50px;
 }
 
 .allInfo {

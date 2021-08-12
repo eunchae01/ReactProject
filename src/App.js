@@ -13,6 +13,7 @@ import Leader from './pages/Leader';
 import Nav from './components/Nav';
 import Search from './components/Search';
 import Openteam from './components/Openteam';
+import Complex2 from './pages/Complex2';
 
 function App() {
   return (
@@ -30,13 +31,10 @@ function App() {
       <Route path="/complex" component={Complex}/>
       <Route path="/item" component={Item}/>
       <Route path="/leader" component={Leader}/>
+      <Route path="/Complex2" component={Complex2}/>
       </Switch>
       </Router>
       </div>
-
-      
-     
-
 
     </>
   );

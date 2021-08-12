@@ -1,13 +1,12 @@
 import {React,useState,useCallback} from 'react';
 import Openteam from './Openteam';
 import Openbutton from './Openbutton';
+import ChampionRate from './ChampionRate';
 
-import ChampionRate from './ChampionRate'
 function Openedhied(){
 
     const [clicked,setClicked] = useState(true)
  
-
     const onClick = useCallback(
         () => {
             console.log(clicked)
@@ -15,6 +14,7 @@ function Openedhied(){
         },
         [clicked],
     )
+    
     return(
         <div>
             <Openbutton onClick= {onClick} clicked={clicked}/>

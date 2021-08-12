@@ -1,8 +1,6 @@
 import './input.css';
 import React,{useState,useCallback} from 'react';
 
-
-
 function Input({history}){
     
     const [name , setName] = useState("")
@@ -22,8 +20,6 @@ function Input({history}){
         },
         [name],
     )
-
-
 
     return(
         <div>

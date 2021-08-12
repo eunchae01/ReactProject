@@ -1,24 +1,3 @@
-.leaderBtn {
-  padding-left: 70%;
-  background-color: lightgray;
-}
-
-.leaderBtn .searchBtn {
-  width: 150px;
-}
-
-.ldBox {
-  padding-top: 525px;
-  padding-left: 35%;
-  background-color: lightgray;
-}
-
-.inputBox {
-  width: 500px;
-  height: 50px;
-  background-color: white;
-}
-
 /* 모달 */
 .modal-wrapper {
   position: fixed;

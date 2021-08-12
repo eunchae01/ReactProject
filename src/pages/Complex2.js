@@ -1,17 +1,11 @@
-import React, { useState, useCallback, useEffect } from 'react';
-import './complex.css';
-import ChampionList from '../components/ChampionList';
+import React from 'react';
 import {Link} from 'react-router-dom';
-import { render } from '@testing-library/react';
+import './complex.css';
 
-function complex(){
-    const onClick = () => {
-        console.log('애니')
-    }
-
-
+function Complex2(){
     return(
-        <div className='comContainer'>
+        <div>
+            <div className='comContainer'>
         <div className='comBtn'>
             <Link to ='/complex'>
             <button className='lineBtn' id='line'>라인전</button>
@@ -22,14 +16,11 @@ function complex(){
         </div>
 
         <div className='comBox'>
-            <ChampionList onClick = {onClick}/>
+            {/* <ChampionList/> */}
         </div>
-
-
-
+        </div>
         </div>
     );
 }
 
-
-export default complex;
+export default Complex2;
