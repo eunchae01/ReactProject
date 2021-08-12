@@ -6,7 +6,6 @@ import menu2 from '../images/menu2.jpg';
 import menu3 from '../images/menu3.jpg';
 import menu4 from '../images/menu4.jpg';
 import menu5 from '../images/menu5.jpg';
-import Test from '../components/Test'
 
 class Home extends Component{
     handleCreate = (data) => {

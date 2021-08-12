@@ -12,7 +12,7 @@ import Item from './pages/Item';
 import Leader from './pages/Leader';
 import Nav from './components/Nav';
 import Search from './components/Search';
-import Openteam from './components/Openteam';
+import Openteam from '../src/components/opencomponents/Openteam';
 import Complex2 from './pages/Complex2';
 
 function App() {

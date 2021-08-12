@@ -2,7 +2,7 @@ import React, { useState, useCallback, useEffect } from 'react';
 import ChampionElement from './ChampionElement';
 import ChampionGrapList from './Graphs/ChampionGrapList';
 
-const ChampionList = ({ chamipons, championName, onClick }) => {
+const ChampionList = ({ chamipons, championName, onClick}) => {
     const [championList, setChampionList] = useState([]);
 
     // useEffect(() => {
@@ -75,6 +75,22 @@ const ChampionList = ({ chamipons, championName, onClick }) => {
                                 imageUrl="https://ddragon.leagueoflegends.com/cdn/11.10.1/img/champion/Annie.png"
                                 name="애니"
                                 id="1"
+                                onClick={onClick}
+                            />
+                        </td>
+                        <td>               
+                            <ChampionElement
+                                imageUrl=" https://ddragon.leagueoflegends.com/cdn/11.10.1/img/champion/Lillia.png"
+                                name="릴리아"
+                                id="2"
+                                onClick={onClick}
+                            />
+                        </td>
+                        <td>
+                            <ChampionElement
+                                imageUrl="https://ddragon.leagueoflegends.com/cdn/11.10.1/img/champion/Gwen.png"
+                                name="그웬"
+                                id="3"
                                 onClick={onClick}
                             />
                         </td>

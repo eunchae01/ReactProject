@@ -1,6 +1,6 @@
 import React from 'react';
-import Ofirst from './Ofirst';
-import Opendragon from './Opendragon'
+import Ofirst from '../components/opencomponents/Ofirst';
+import Opendragon from '../components/opencomponents/Opendragon';
 import WinnerRate from './WinnerRate';
 
 
