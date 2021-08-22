@@ -8,11 +8,13 @@
 }
 
 .comBox {
-  width: 750px;
+  width: 700px;
   height: 500px;
   background-color: lightblue;
   margin-left: 7%;
   float: left;
+  overflow-y: scroll;
+  padding-left: 50px;
 }
 
 #line:focus {
@@ -24,10 +26,15 @@
 }
 
 .outcome {
-  width: 650px;
+  width: 700px;
   height: 500px;
   background-color: antiquewhite;
   display: flex;
+}
+
+.outP {
+  background-color: antiquewhite;
+  width: 50px;
 }
 
 .box1 {
@@ -35,15 +42,17 @@
   height: 150px;
   background-color: white;
   margin-top: 175px;
-  margin-left: 30px;
+  /* margin-left: 25px; */
+  border-radius: 10px;
 }
 
 .box2 {
-  width: 400px;
-  height: 300px;
+  width: 425px;
+  height: 400px;
   background-color: wheat;
-  margin-top: 100px;
-  /* margin-left: 0px; */
+  margin-top: 50px;
+  overflow-y: scroll;
+  margin-left: 30px;
 }
 
 .reBox {
@@ -52,6 +61,7 @@
   background-color: white;
   float: left;
   margin: 5px;
+  margin-left: 10px;
 }
 
 .reRate {

@@ -4,6 +4,7 @@
   background-color: lightblue;
   margin-left: 7%;
   float: left;
+  overflow-y: scroll;
 }
 
 .champInput {

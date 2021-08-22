@@ -1,6 +1,6 @@
 import {React,useState,useCallback} from 'react';
-import Openbutton from '../components/opencomponents/Openbutton';
-import ChampionRate from './ChampionRate';
+import Openbutton from './opencomponenets/Openbutton';
+import ChampionRate from '../ChampionRate';
 
 function Openedhied(){
 

@@ -35,6 +35,7 @@
       "react-app/jest"
     ]
   },
+  "proxy": "https://blog.galbimandudev.com",
   "browserslist": {
     "production": [
       ">0.2%",

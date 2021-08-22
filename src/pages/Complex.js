@@ -1,60 +1,58 @@
 import React, { useState, useEffect } from 'react';
 import './complex.css';
-import '../components/Recommand';
-import ChampionList from '../components/ChampionList';
+import '../components/complex/Recommand';
+import ChampionList from '../components/championcomponents/ChampionList';
 import {Link} from 'react-router-dom';
-import Recommand from '../components/Recommand';
-import ListRecommand from '../components/ListRecommand';
-import Outcome from '../components/Outcome';
 
+import OutCome from '../components/complex/OutCome';
+import axios from "axios"
 function Complex({comrate}){
-    const [imageUrl, setImageUrl] = useState('d');
-    const [isClicked, setClicked] = useState('0');
+    // 조합승률 콘솔에뜨는 d
+    const [imageUrl, setImageUrl] = useState('');
+    const [isClicked, setClicked] = useState('line');
+    const [champions, setChampions] = useState([]);
+    const [championName, setchampionName] = useState('');
 
+    const onChange = (e) => {
+        console.log(e.target.value);
+        setchampionName(e.target.value);
+    };
+    useEffect(() => {
+        const fetchUsers = async () => {
+            try {
+                const response = await axios.get('/champion');
+                console.log(response.data);
+                setChampions(response.data); // 데이터는 response.data 안에 들어있습니다.
+            } catch (e) {
+                console.error(e);
+            }
+        };
+        fetchUsers();
+    }, []);
     // const 
-
-
-
     const clickMathc = (e) =>{
         setClicked(() => e.target.id)
     }
     const onClick = (e) => {
         console.log(e.target)
-        setImageUrl(() => e.target.src);
-        // setName(() => e.target.id);
-        // setRate(() => e.target.name);
-        
+        setImageUrl(() => e.target.src);      
     };
-
-    // const isClicked = (e) => {
-    //     console.log(e.target)
-        
-    // }
 
     return(
         <div className='comContainer'>
-
-        <div className='comBtn'>
-            {/* <Link to ='/complex'> */}
-            <button className='lineBtn' id='line' onClick={clickMathc}>라인전</button>
-            {/* </Link>
-            <Link to ='./complex2'> */}
-                <button className='lineBtn' id='hant' onClick={clickMathc}>한타</button>
-            {/* </Link> */}
-        </div>
-
-        <div className='comBox'>
-            <ChampionList onClick = {onClick} />
-        </div>
-
-        <div className='outcome'>
-            {isClicked}
-            <img src={imageUrl} className='box1' alt='ㅇ'/>
-            <div className='box2' >
-                <ListRecommand />
+            <div className='comBtn'>
+                <button className='lineBtn' id='line' onClick={clickMathc}>라인전</button>
+                    <button className='lineBtn' id='han' onClick={clickMathc}>한타</button>
             </div>
-        </div>
 
+            <div className='comBox'>
+            <ChampionList
+                    chamipons={champions}
+                    championName={championName}
+                    onClick={onClick}
+                />
+            </div>
+            <OutCome isClicked={isClicked} imageUrl = {imageUrl} />
         </div>
     );
 }

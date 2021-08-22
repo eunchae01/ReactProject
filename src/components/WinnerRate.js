@@ -1,12 +1,12 @@
 import React from 'react';
-import Openteam from '../components/opencomponents/Openteam';
-import Oteam from '../components/opencomponents/Oteam';
-import Otier from '../components/opencomponents/Otier';
-import Okda from '../components/opencomponents/Okda';
-import Ograph3 from '../components/opencomponents/Ograph3';
-import Oward from '../components/opencomponents/Oward';
-import Ocs from '../components/opencomponents/Ocs';
-import Oitem from '../components/opencomponents/Oitem';
+import Openteam from '../components/searchcomponents/opencomponenets/Openteam';
+import Oteam from './searchcomponents/opencomponenets/Oteam';
+import Otier from './searchcomponents/opencomponenets/Otier';
+import Okda from '../components/searchcomponents/opencomponenets/Okda';
+import Ograph3 from '../components/searchcomponents/opencomponenets/Ograph3';
+import Oward from './searchcomponents/opencomponenets/Oward';
+import Ocs from '../components/searchcomponents/opencomponenets/Ocs';
+import Oitem from '../components/searchcomponents/opencomponenets/Oitem';
 
 function WinnerRate(){
     return(

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
+import Header from './components/common/Header';
 import './components/nav.css'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from './pages/Home';
@@ -11,8 +11,8 @@ import Complex from './pages/Complex';
 import Item from './pages/Item';
 import Leader from './pages/Leader';
 import Nav from './components/Nav';
-import Search from './components/Search';
-import Openteam from '../src/components/opencomponents/Openteam';
+import Search from './components/searchcomponents/Search';
+import Openteam from './components/searchcomponents/opencomponenets/Openteam';
 import Complex2 from './pages/Complex2';
 
 function App() {

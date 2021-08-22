@@ -9,17 +9,12 @@
 }
 
 .getNew {
-  /* position: absolute; */
-  /* margin-top: -850px; */
-  /* padding-left: 300px; */
-  /* float: left; */
   background-color: lightgray;
   float: left;
   margin-bottom: 30px;
 }
 
 .graph {
-  /* position: absolute; */
   padding-top: 50px;
   margin-left: 200px;
   width: 1300px;
@@ -29,13 +24,8 @@
 }
 
 .short {
-  /* position: absolute; */
   padding-top: 250px;
   padding-left: 200px;
-  /* padding-bottom: 900px; */
-  /* padding-right: 1140px;
-  width: 350px;
-  height: 300px; */
   background-color: lightgray;
 }
 
@@ -53,17 +43,14 @@
   width: 150px;
   height: 200px;
   background-color: aliceblue;
-  /* float: right; */
 }
 
 .searchTop {
-  /* position: absolute; */
   margin-top: -200px;
   margin-left: 575px;
   padding-bottom: 50px;
   width: 925px;
   height: 150px;
-  /* float: left; */
 }
 
 .pieGraph {
@@ -74,8 +61,6 @@
 }
 
 .mostPick {
-  /* margin-top: -160px; */
-  /* margin-left: 300px; */
   width: 325px;
   height: 160px;
   background-color: aliceblue;
@@ -83,8 +68,6 @@
 }
 
 .mostPosition {
-  /* margin-top: -160px; */
-  /* margin-left: 625px; */
   width: 300px;
   height: 160px;
   background-color: aliceblue;
@@ -92,8 +75,6 @@
 }
 
 .list {
-  /* position: absolute; */
-  /* margin-top: -425px; */
   padding-left: 575px;
   width: 925px;
   height: 200px;
@@ -102,9 +83,6 @@
 }
 
 .allInfo {
-  /* position: relative; */
-  /* margin-top: -425px; */
-  /* margin-left: 575px; */
   background-color: aquamarine;
   height: 200px;
   float: left;
@@ -139,7 +117,6 @@
   height: 80px;
   background-color: aliceblue;
   float: left;
-  /* margin-left: 5px; */
 }
 
 .spell {
@@ -154,8 +131,6 @@
   width: 40px;
   height: 80px;
   background-color: aliceblue;
-  /* margin-left: 125px; */
-  /* float: left; */
 }
 
 .lun {
@@ -171,9 +146,6 @@
 }
 
 .score {
-  /* position: relative; */
-  /* margin-top: -425px; */
-  /* margin-left: 850px; */
   background-color: aliceblue;
   width: 75px;
   height: 135px;
@@ -189,9 +161,6 @@
   background-color: aliceblue;
   padding-top: 50px;
   text-align: center;
-  /* position: relative; */
-  /* margin-top: -425px; */
-  /* margin-left: 925px; */
 }
 
 .item {
@@ -200,9 +169,6 @@
   float: left;
   padding-top: 50px;
   background-color: aliceblue;
-  /* position: relative; */
-  /* margin-top: -425px; */
-  /* margin-left: 1025px; */
 }
 
 .items {
@@ -219,15 +185,12 @@
   height: 200px;
   float: left;
   background-color: aliceblue;
-  /* position: relative;
-  margin-top: -425px; */
 }
 
 .teamPic {
   width: 35px;
   height: 35px;
   background-color: cornflowerblue;
-  /* margin-left: 10px; */
   margin-bottom: 5px;
   float: left;
 }
@@ -248,7 +211,8 @@
   width: 40px;
   height: 40px;
   margin-top: 160px;
-  background-color: lightgray;
+  color: antiquewhite;
+  background-color: lightsteelblue;
 }
 
 /* 상세페이지 */
@@ -262,7 +226,6 @@
   padding: 10px;
   padding-left: 50px;
   padding-right: 50px;
-  /* float: left; */
 }
 
 .firstline {
@@ -278,7 +241,6 @@
   width: 115px;
   height: 60px;
   float: left;
-  /* padding-top: 3px; */
 }
 
 .Ominipic {
@@ -308,7 +270,6 @@
   width: 25px;
   height: 50px;
   background-color: aliceblue;
-  /* margin-left: 125px; */
   float: left;
 }
 
@@ -382,7 +343,6 @@
 .OKDA {
   margin-top: 20px;
   margin-bottom: 26px;
-
   float: left;
 }
 
@@ -462,9 +422,7 @@
   height: 60px;
   background-color: aliceblue;
   float: left;
-  /* margin: 1px; */
   padding-left: 10px;
-  /* margin-top: 3px; */
 }
 
 .OItem {
@@ -482,12 +440,10 @@
   height: 75px;
   background-color: lightpink;
   display: flex;
-  /* padding-left: 50px; */
 }
 
 .monster {
   width: 125px;
-  /* height: 75px; */
   background-color: lightblue;
   text-align: center;
   padding-top: 6px;
