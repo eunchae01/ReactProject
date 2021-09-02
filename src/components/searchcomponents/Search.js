@@ -57,8 +57,9 @@ function search(){
             <Item/>
             <Team ID1='소환사ID1' ID2='소환사ID2' ID3='소환사ID3' ID4='소환사ID4' ID5='소환사ID5'/>
             <Team ID1='소환사ID6' ID2='소환사ID7' ID3='소환사ID8' ID4='소환사ID9' ID5='소환사ID10'/>
-            
+            <div className='back'>
             <Openedhied />
+            </div>
         </div>
        
         <div className='list'>
@@ -69,7 +70,6 @@ function search(){
             <Item/>
             <Team ID1='소환사ID1' ID2='소환사ID2' ID3='소환사ID3' ID4='소환사ID4' ID5='소환사ID5'/>
             <Team ID1='소환사ID6' ID2='소환사ID7' ID3='소환사ID8' ID4='소환사ID9' ID5='소환사ID10'/>
-            
             <Openedhied />
         </div>
         </div>

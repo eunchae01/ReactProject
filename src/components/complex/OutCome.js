@@ -4,11 +4,8 @@ import axios from "axios"
 
 
 function OutCome({isClicked,imageUrl}){
-    
-
     const [data,setData] = useState([])
     
-
     useEffect(() => {
         console.log(imageUrl)    
         setData([])
@@ -20,7 +17,7 @@ function OutCome({isClicked,imageUrl}){
         { imageUrl === "d" ? 
         <div></div>
         :        <div>
-        <img src={imageUrl} className='box1' />
+        <img src={imageUrl} className='box1'/>
         <div className='box2' >
             <ListRecommand data = {data}/>
         </div>

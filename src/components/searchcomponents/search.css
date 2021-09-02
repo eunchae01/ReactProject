@@ -207,12 +207,17 @@
   float: left;
 }
 
+.back {
+  background-color: aliceblue;
+}
+
 .openbutton {
   width: 40px;
   height: 40px;
   margin-top: 160px;
   color: antiquewhite;
-  background-color: lightsteelblue;
+  background-color: cornflowerblue;
+  float: left;
 }
 
 /* 상세페이지 */

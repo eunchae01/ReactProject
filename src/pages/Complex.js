@@ -3,9 +3,9 @@ import './complex.css';
 import '../components/complex/Recommand';
 import ChampionList from '../components/championcomponents/ChampionList';
 import {Link} from 'react-router-dom';
-
 import OutCome from '../components/complex/OutCome';
 import axios from "axios"
+
 function Complex({comrate}){
     // 조합승률 콘솔에뜨는 d
     const [imageUrl, setImageUrl] = useState('');
@@ -45,6 +45,7 @@ function Complex({comrate}){
                     <button className='lineBtn' id='han' onClick={clickMathc}>한타</button>
             </div>
 
+        
             <div className='comBox'>
             <ChampionList
                     chamipons={champions}
@@ -53,7 +54,7 @@ function Complex({comrate}){
                 />
             </div>
             <OutCome isClicked={isClicked} imageUrl = {imageUrl} />
-        </div>
+            </div>
     );
 }
 
