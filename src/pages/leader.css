@@ -40,6 +40,12 @@
   padding-top: 15px;
 }
 
+.selectB {
+  margin-top: 5px;
+  margin-left: 5px;
+  height: 26px;
+}
+
 .modal {
   background: white;
   padding: 24px 16px;
@@ -54,11 +60,13 @@
   padding-bottom: 25px;
   font-family: "paybooc";
   padding-left: 10px;
+  margin-top: 10px;
 }
 
 .modalB {
   margin-left: 10px;
   margin-bottom: 15px;
+  height: 20px;
 }
 
 .close-wrapper {
