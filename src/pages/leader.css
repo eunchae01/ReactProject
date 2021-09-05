@@ -17,7 +17,7 @@
 .idList {
   width: 1000px;
   height: 600px;
-  background-color: darkcyan;
+  background-color: #f9f9f9;
   margin-left: 350px;
 }
 
@@ -44,6 +44,11 @@
   margin-top: 5px;
   margin-left: 5px;
   height: 26px;
+  border-radius: 10px;
+  border: none;
+  background-color: #008cba;
+  color: white;
+  cursor: pointer;
 }
 
 .modal {
@@ -93,4 +98,5 @@
   width: 500px;
   height: 50px;
   background-color: white;
+  margin-bottom: 25px;
 }

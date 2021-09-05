@@ -1,6 +1,6 @@
 .comContainer {
   background-color: lightgray;
-  padding-bottom: 571px;
+  padding-bottom: 590px;
   padding-top: 75px;
 }
 
@@ -16,6 +16,7 @@
   float: left;
   overflow-y: scroll;
   padding-left: 50px;
+  border-radius: 10px;
 }
 
 #line:focus {
@@ -29,14 +30,16 @@
 .outcome {
   width: 700px;
   height: 500px;
-  background-color: antiquewhite;
+  background-color: #f9f9f9;
   display: flex;
   float: left;
+  border-radius: 10px;
 }
 
 .outP {
-  background-color: antiquewhite;
+  background-color: #f9f9f9;
   width: 50px;
+  color: #f9f9f9;
 }
 
 .box1 {
@@ -62,14 +65,14 @@
 .reBox {
   width: 130px;
   height: 130px;
-  background-color: white;
+  background-color: #f9f9f9;
   float: left;
   margin: 5px;
   margin-left: 10px;
 }
 
 .reRate {
-  background-color: thistle;
+  background-color: #f9f9f9;
   margin: 5px;
   width: 100px;
   height: 75px;

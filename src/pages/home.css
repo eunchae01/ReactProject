@@ -61,6 +61,7 @@
   visibility: hidden;
   margin-top: -350px;
   margin-left: 20px;
+  font-family: "air";
 }
 
 .title2 {
@@ -70,6 +71,7 @@
   visibility: hidden;
   margin-top: -350px;
   margin-left: 30px;
+  font-family: "air";
 }
 .title3 {
   color: rgb(29, 29, 29);
@@ -78,6 +80,7 @@
   visibility: hidden;
   margin-top: -350px;
   margin-left: 50px;
+  font-family: "air";
 }
 
 .title4 {
@@ -86,6 +89,7 @@
   font-size: 25px;
   visibility: hidden;
   margin-top: -350px;
+  font-family: "air";
 }
 
 .title5 {
@@ -95,4 +99,5 @@
   visibility: hidden;
   margin-top: -350px;
   margin-left: 70px;
+  font-family: "air";
 }

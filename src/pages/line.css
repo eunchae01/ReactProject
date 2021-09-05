@@ -34,7 +34,6 @@
 
 .time {
   position: absolute;
-  display: inline;
   padding-left: 25%;
   padding-bottom: 50px;
   /* margin-top: 100px; */
@@ -47,13 +46,13 @@
   height: 50px;
   border-radius: 10px;
   color: white;
-  background-color: #144e88;
+  background-color: #008cba;
   border: none;
 }
 
 .printChamp {
   width: 67%;
   height: 200px;
-  background-color: lightblue;
+  background-color: #f9f9f9;
   border-radius: 10px;
 }

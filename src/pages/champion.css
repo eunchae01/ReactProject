@@ -2,7 +2,7 @@
 .cpSearch {
   background-color: lightgray;
   padding-left: 625px;
-  padding-bottom: 50px;
+  padding-bottom: 55px;
 }
 .cpInput {
   width: 400px;
@@ -29,13 +29,14 @@ input:focus {
   color: white;
   margin-left: 20px;
   cursor: pointer;
+  font-family: "paybooc";
 }
 
 .backPic {
   background-color: lightgray;
   padding-bottom: 50px;
   float: left;
-  width: 1690px;
+  width: 1705px;
 }
 
 .champBox {
@@ -46,15 +47,18 @@ input:focus {
   overflow-y: scroll;
   padding-left: 50px;
   float: left;
+  border-radius: 10px;
+  /* margin-left: 10px; */
 }
 
 .champPic {
   width: 150px;
   height: 150px;
-  background-color: lightpink;
+  background-color: #f9f9fa;
   float: left;
   margin-top: 50px;
   margin-left: 300px;
+  border-radius: 15px;
 }
 
 .champRate {
