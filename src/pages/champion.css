@@ -13,6 +13,7 @@
   color: rgb(49, 49, 49);
   font-weight: bold;
   border-radius: 25px;
+  margin-top: 75px;
 }
 
 input:focus {

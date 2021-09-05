@@ -1,3 +1,14 @@
+.selectBg {
+  background-color: lightgray;
+  padding-left: 1170px;
+}
+
+.select {
+  margin-top: 75px;
+  width: 100px;
+  height: 30px;
+}
+
 .lineBtnbox {
   width: 1268px;
   height: 50px;
@@ -26,7 +37,7 @@
   display: inline;
   padding-left: 25%;
   padding-bottom: 50px;
-  margin-top: 50px;
+  /* margin-top: 100px; */
   background-color: lightgray;
   width: 75%;
 }

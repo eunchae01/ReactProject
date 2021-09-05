@@ -1,6 +1,7 @@
 .comContainer {
   background-color: lightgray;
   padding-bottom: 571px;
+  padding-top: 75px;
 }
 
 .comBtn {
@@ -10,7 +11,7 @@
 .comBox {
   width: 700px;
   height: 500px;
-  background-color: lightblue;
+  background-color: #f9f9f9;
   margin-left: 7%;
   float: left;
   overflow-y: scroll;

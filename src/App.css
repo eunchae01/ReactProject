@@ -2,3 +2,8 @@ a {
   text-decoration: none !important;
   color: black;
 }
+
+@font-face {
+  font-family: "paybooc";
+  src: url(./fonts/paybooc\ Medium.ttf);
+}

@@ -5,6 +5,7 @@
 
 .leaderBtn .searchBtn {
   width: 150px;
+  margin-top: 75px;
 }
 
 .grey {
@@ -33,6 +34,12 @@
   justify-content: center;
 }
 
+.modalT {
+  font-family: "paybooc";
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
 .modal {
   background: white;
   padding: 24px 16px;
@@ -45,6 +52,13 @@
   font-size: 24px;
   font-weight: bold;
   padding-bottom: 25px;
+  font-family: "paybooc";
+  padding-left: 10px;
+}
+
+.modalB {
+  margin-left: 10px;
+  margin-bottom: 15px;
 }
 
 .close-wrapper {
@@ -52,7 +66,9 @@
 }
 
 #close {
-  margin-top: 100px;
+  margin-top: 50px;
+  font-family: "paybooc";
+  margin-left: 10px;
 }
 
 .email {

@@ -28,10 +28,12 @@ function Leader(){
         <div className='modal-wrapper' >
             <div className='modal'>
                 <div className='modal-title'>내 아이디 등록하기</div>
-                <p>학교 이메일을 입력해주세요.</p>
-                <input className='email' placeholder='학교이메일'></input>
-                <p>인증번호를 입력해주세요.</p>
-                <input className='sendnum' placeholder='인증번호'></input>
+                <p className='modalT'>학교 이메일을 입력해주세요.</p>
+                <input className='modalB' placeholder='학교이메일'></input>
+                <button>인증</button>
+                <p className='modalT'>인증번호를 입력해주세요.</p>
+                <input className='modalB' placeholder='인증번호'></input>
+                <button>확인</button>
                 <div className='close-wraper'>
                     <button id='close' onClick={closeModal}>닫기</button>
                 </div>
