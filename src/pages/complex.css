@@ -1,6 +1,6 @@
 .comContainer {
   background-color: lightgray;
-  padding-bottom: 70px;
+  padding-bottom: 571px;
 }
 
 .comBtn {
@@ -30,6 +30,7 @@
   height: 500px;
   background-color: antiquewhite;
   display: flex;
+  float: left;
 }
 
 .outP {
@@ -44,15 +45,17 @@
   margin-top: 175px;
   /* margin-left: 25px; */
   border-radius: 10px;
+  float: left;
 }
 
 .box2 {
   width: 425px;
   height: 400px;
   background-color: wheat;
-  margin-top: 50px;
   overflow-y: scroll;
-  margin-left: 30px;
+  margin-left: 175px;
+  float: left;
+  margin-top: -275px;
 }
 
 .reBox {
