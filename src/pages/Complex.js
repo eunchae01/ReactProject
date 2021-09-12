@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './complex.css';
 import '../components/complex/Recommand';
 import ChampionList from '../components/championcomponents/ChampionList';
-import {Link} from 'react-router-dom';
 import OutCome from '../components/complex/OutCome';
 import axios from "axios"
 

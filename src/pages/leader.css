@@ -21,6 +21,17 @@
   margin-left: 350px;
 }
 
+.leaderTable {
+  text-align: center;
+  /* background-color: aquamarine; */
+  width: 1000px;
+}
+
+th {
+  height: 45px;
+  background-color: cadetblue;
+}
+
 /* 모달 */
 .modal-wrapper {
   position: fixed;
