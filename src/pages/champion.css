@@ -36,7 +36,7 @@ input:focus {
   background-color: lightgray;
   padding-bottom: 50px;
   float: left;
-  width: 1705px;
+  width: auto;
 }
 
 .champBox {
